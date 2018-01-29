@@ -4,7 +4,7 @@ mvn archetype:generate -DgroupId={project-packaging}
 -DarchetypeArtifactId=maven-archetype-quickstart
 -DinteractiveMode=false
 >PLUGINS
-><properties>
+<properties>
       <failOnMissingWebXml>false</failOnMissingWebXml>
       </properties>
   <dependencies>
